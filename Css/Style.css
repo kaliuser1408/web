@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.htext{
+    font-size:4vw;
+}
+/* 
+.bcolor{
+    color: white;
+} */
+
+.logo {
+    display: flex;
+    height: 40px;
+    width: 40px;
+
+}
+
+.navigation Ul{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+    font-size: large;
+}
+.navigation ul:first-child{
+    justify-self: left;
+}
+
+li{
+    display: flex;
+    list-style: none;
+    margin: 10px;
+    padding: 0.2% 2.2%;
+    align-self: center;
+}
+li a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    color: crimson;
+}
+
+.firstsection{
+    background-color:#0d192cde;
+    /* height: 300px;
+    background-image: url(Images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    background-position: center; */
+}
+
+.appgrid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+    /* position: absolute; */
+}
+
+
+
+.apps{
+    margin: 10px 20px;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.app_image{
+    width: 200px;
+    height: 200px;
+
+}
+
+.btn{
+    padding: 10px 20px;
+    border: 1px transparent;
+    border-radius: 10px;
+    background-color:black;
+    color: rgba(255, 255, 255, 0.76);
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.btn:hover{
+color: crimson;
+}
